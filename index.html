@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <title>Micah's Website</title>
+
+       
+</head>
+
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand js-scroll-trigger" href="#page-top">Micah Walker</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav text-uppercase ml-auto">
+    
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="#team">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+  
+            <div class="containerz">
+                    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                    <div class="row">
+                        <div class="col-6 ">
+                            <div>
+                               <!-- <img style="width:300px;height:200px;" src='images/IMG_0085.jpg'> -->
+                            </div>
+                            <div>
+                                <h4>HI</h4> 
+                                <p> blah blah blah</p>
+                                <button id="buttz" type="button" class="btn btn-dark" onclick="myFunctionz()" >Ice</button>
+
+                            </div>
+                            <h1 id="Ice" >🥶🥶🥶🥶🥶🥶🥶🥶🥶 </h1>
+                        </div>
+            
+                        <div class="col-6 ">
+                            <div>
+                              <!--  <img style="width:300px;height:200px;" src='images/IMG_0085.jpg'> -->
+                            </div>
+                            <div>
+                                <h4>HI</h4>
+                                <p> blah blah blah</p>
+                                <button id="butt" type="button" class="btn btn-danger" onclick="myFunction()">Cool</button>
+
+                            </div>
+                     <h1 id="Cool" > 😎😎😎😎😎😎😎😎😎😎😎</h1> 
+                        </div>
+                    </div>
+                    
+            
+                    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+                    <div class="row">
+                        <div class="col-6"> 
+                                <form>
+                                        <div class="form-group">
+                                          <label for="exampleInputEmail1">Email address</label>
+                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="exampleInputPassword1">Password</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <div class="form-group form-check">
+                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                      </form>
+                        </div>
+                        <div id="hold" class="col-6 "> </div>
+                        <div class="col-6 col-md-4"> </div>
+                    </div>
+            
+                    <!-- Columns are always 50% wide, on mobile and desktop -->
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-6"></div>
+                    </div>
+                </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+<script>
+
+function myFunction() {
+  let x = document.getElementById("butt");
+  if (x.innerHTML === "Cool") {
+    x.innerHTML = "😎", $('#Cool').show();;
+  } else {
+    x.innerHTML = "Cool", $('#Cool').hide();;
+  }
+}
+function myFunctionz() {
+  document.getElementById("buttz");
+  let y = document.getElementById("buttz");
+  if (y.innerHTML === "Ice") {
+    y.innerHTML = "🥶", $('#Ice').show();
+  } else {
+    y.innerHTML = "Ice", $('#Ice').hide();
+  }
+}
+
+$('#Ice').hide()
+$('#Cool').hide()
+</script>
+
+<style>
+
+     .containerz {
+        background: rgb(0, 130, 156);
+        size: 1280px;
+        margin-top: 100px;
+        color: black;
+    }
+#mainNav {
+background: black;
+
+ }
+
+ .i {
+ color: red;    
+ }
+   
+</style>
+
+</html>
